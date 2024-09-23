@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('strada.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    color: navy;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#about-me {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+#about-me p {
+    color: darkslategrey;
+}
+
+#email-input,
+#subscribe-button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#subscribe-button {
+    background-color: navy;
+    color: white;
+}
+
+table{
+    color:coral
+}
+#blog-posts {
+    border-collapse: collapse;
+}
+
+
+#blog-posts th {
+    background-color: rgb(48, 217, 19);
+    color: white;
+}
+
+
+#blog-posts td {
+    border: 1px solid rgb(60, 207, 37);
+}
+
+
+#favorite-blogs {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+#favorite-blogs a {
+    color: rgb(39, 216, 56);
+    text-decoration: none;
+}
+
+
+#favorite-blogs a:hover {
+    color: skyblue;
+}
